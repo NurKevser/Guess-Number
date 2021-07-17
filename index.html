@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="style.css" />
+    <title>Guess Number</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Guess The Number</h1>
+      <br />
+      <h3>(Enter a number between 0 and 100)</h3>
+      <br />
+      <p id="txt"></p>
+      <p id="chancesTxt"></p>
+      <p id="tryTxt"></p>
+      <input id="num" type="number" /><br />
+      <button type="submit" class="btn" id="btn">Guess</button><br />
+      <div class="prompt_box center" id="prompt_box">
+        <h1 id="promt_txt"></h1>
+        <br />
+        <button type="submit" class="btn" onclick="play();">Play Again</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
